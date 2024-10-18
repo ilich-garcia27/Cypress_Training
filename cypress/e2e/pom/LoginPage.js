@@ -18,4 +18,5 @@ export class Login {
     clickLoginButton() {
         cy.get(this.loginButton).click();
     }
+    
 };
