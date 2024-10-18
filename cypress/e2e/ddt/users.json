@@ -1,0 +1,37 @@
+[
+    {
+        "type": "incorrect_user",
+        "username": "incorrect_user",
+        "password": "secret_sauce"
+    },
+    {
+        "type": "incorrect_password",
+        "username": "standard_user",
+        "password": "incorrect_password"
+    },
+    {
+        "type": "empty_username",
+        "username": "",
+        "password": "incorrect_password"
+    },
+    {
+        "type": "empty_password",
+        "username": "standard_user",
+        "password": ""
+    },
+    {
+        "type": "valid_credentials",
+        "username": "standard_user",
+        "password": "secret_sauce"
+    },
+    {
+        "type": "locked_out_user",
+        "username": "locked_out_user",
+        "password": "secret_sauce"
+    },
+    {
+        "type": "visual_user",
+        "username": "visual_user",
+        "password": "secret_sauce"
+    }
+]
